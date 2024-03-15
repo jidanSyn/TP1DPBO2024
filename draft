@@ -1,0 +1,70 @@
+Alur Game:
+- Create Party -> pilih komposisi atau bebas?
+- Pilih / Buat Karakter
+karakter->
+diff role, skill, stat
+magic def / atk
+phys def / atk
+role affects level mod?
+equipment?slot?just weapon
+
+level system:
+quest / encounters give exp
+level thresholds
+weapon:
+stat mod?
+method equip/unequip i guess
+- Mainkan -> Masuk ke kota awal
+- Kota Awal -> pilih pergi kemana (shop(trade), guild(info, accept quest)
+- Quest: reward, desc, recommended level, prerequisite?
+- Combat cycle:
+Turn, based on speed? 
+InteractionManager? CombatEvent? are monsters in a party..?
+ 
+
+-- buffs.. how to do this? too complicated
+
+
+Character:
+- Name
+- Role
+- Gender
+- HP
+- ATK
+
+NPC:
+- Name
+- Gender
+- Quest
+- Info
+- Trading
+
+Enemy NPC
+
+Quest:
+- Prerequisite: item? related quest?
+- Reward
+- Description
+- Title
+
+Item:
+- 
+
+InteractionSystem
+
+----
+
+Role -> different level up modifier
+
+Character:
+- Name
+- Gender
+	PlayerCharacter:
+	 - Role
+	 - HP
+	 - ATK
+	 - Inventory
+	 - EXP
+	NPC:
+		
+ 
